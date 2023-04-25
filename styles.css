@@ -1,38 +1,200 @@
+/* index.html */
+
+	body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
 
 
 h1{
-    font-family: sans-serif;
-    text-align: center;
-    margin-top: 50px;
+	padding:15px;
+	text-align:center;
 }
 
-form{
-    display: flex;
-    justify-content: center;
+
+.note-text{
+	border:none;
+	resize: none;
+	height:200px;
+	box-shadow: 0 0 7px rgba(0,0,0,0.15);
+	padding:10px;
+ 	border-radius:10px;
+ 	font-size:16px;
+	
+}
+#app{
+  
+overflow:auto;
+display:grid;
+grid-template-columns: repeat(auto-fill,200px);
+padding:20px;
+gap:20px;
+
+}
+.add-note{
+	height:200px;
+	
+	border:none;
+	outline:none;
+	
+	background: rgba(0,0,0,0.1);
+	border-radius:10px;
+	font-size:100px;
+	cursor: pointer;
+	transition:background 0.2s;
+}
+.add-note:hover{
+background: rgba(0,0,0,0.2);
+
+}
+.note-tag {
+	position: absolute; /* position the tag relative to the note */
+	top: 200px; /* adjust the top and left values as needed */
+	left: 60px;
+	background-color: #f2f2f2;
+	color: #333;
+	font-size: 12px;
+	padding: 3px 6px;
+	border-radius: 5px;
 }
 
-input[type ="search"]{
-    padding: 10px;
-    border-radius: 20px;
-    border: none;
-    box-shadow: 0 0 5px rgba(0,0,0,0.1);
-    font-size: 16px;
-    width: 300px;
-    max-width: 100%;
+
+
+/* login.html */
+
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  html,
+body {
+  height: 100%;
 }
 
-button[type="submit"]{
-    background-color: #007bff;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 20px;
-    margin-left: -40px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: all 0.3s ease;
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color:  #24272b;
 }
 
-button[type="submit"]{
-    background-color: #0056b3;
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
 }
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+/* signup.html */
+.bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+
+  html,
+body {
+  height: 100%;
+}
+
+body {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #24272b;
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+.form-signin .checkbox {
+  font-weight: 400;
+}
+.form-signin .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+p{
+  color:white;
+}
+
+
