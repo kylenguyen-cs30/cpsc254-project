@@ -1,0 +1,24 @@
+{
+  "name": "notess",
+  "version": "1.0.0",
+  "description": "Web Note app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kylenguyen-cs30/cpsc254-project.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kylenguyen-cs30/cpsc254-project/issues"
+  },
+  "homepage": "https://github.com/kylenguyen-cs30/cpsc254-project#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "firebase": "^9.20.0"
+  }
+}
